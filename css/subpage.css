@@ -61,7 +61,7 @@ a:active {
     linear-gradient(transparent 50%, white),
     url("../img/mountain-range.jpg") center no-repeat;
   background-size: cover;
-  height: 600px;
+  min-height: 100vh;
   margin: 0 auto 50px;
   text-align: center;
   padding: 170px;
@@ -132,7 +132,7 @@ blockquote {
 @media (max-width: 1024px) {
 
   .subheader{
-    padding:  100px 30px 0;
+    padding:  calc(50vh - 208px) 30px 0;
     margin-bottom: 40px;
   }
 

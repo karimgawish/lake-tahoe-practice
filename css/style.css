@@ -106,7 +106,7 @@ a:active {
 
 .main-header {
   padding-top: 170px;
-  height: 850px;
+  min-height: 100vh;
   background: linear-gradient(#ffa949, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #ffa949 url('../img/mountains.jpg') no-repeat center;
@@ -233,7 +233,7 @@ a:active {
   }
   .main-header {
     max-height: 380px;
-    padding: 50px 25px 0;
+    padding: 25vh 25px 0;
   }
   .title {
     font-size: 1.3rem;
@@ -243,8 +243,8 @@ a:active {
     font-size: 5rem;
     line-height: 1.1;
   }
-  .arrow {
-    display: none;
+  /* .arrow {
+    display: none; */
   }
   .intro {
     font-size: 1rem;
