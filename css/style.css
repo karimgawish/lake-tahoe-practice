@@ -75,7 +75,7 @@ li {
 
 .arrow {
   width: 50px;
-  margin-top: 150px;
+  margin-top: 50px;
   transition: all 0.5s;
 }
 
@@ -232,7 +232,7 @@ a:active {
     border-top: none;
   }
   .main-header {
-    max-height: 380px;
+    min-height: 100vh;
     padding: 25vh 25px 0;
   }
   .title {
